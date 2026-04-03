@@ -1,40 +1,44 @@
-This is a Kotlin Multiplatform project targeting Android, Desktop (JVM).
+# 🌙 Smart StandBy Dashboard App
 
-* [/composeApp](./composeApp/src) is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-  - [commonMain](./composeApp/src/commonMain/kotlin) is for code that’s common for all targets.
-  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    the [iosMain](./composeApp/src/iosMain/kotlin) folder would be the right place for such calls.
-    Similarly, if you want to edit the Desktop (JVM) specific part, the [jvmMain](./composeApp/src/jvmMain/kotlin)
-    folder is the appropriate location.
+A modern StandBy-style dashboard inspired by iPhone StandBy mode, built using **Kotlin + Jetpack Compose Multiplatform**.
 
-### Build and Run Android Application
-
-To build and run the development version of the Android app, use the run configuration from the run widget
-in your IDE’s toolbar or build it directly from the terminal:
-- on macOS/Linux
-  ```shell
-  ./gradlew :composeApp:assembleDebug
-  ```
-- on Windows
-  ```shell
-  .\gradlew.bat :composeApp:assembleDebug
-  ```
-
-### Build and Run Desktop (JVM) Application
-
-To build and run the development version of the desktop app, use the run configuration from the run widget
-in your IDE’s toolbar or run it directly from the terminal:
-- on macOS/Linux
-  ```shell
-  ./gradlew :composeApp:run
-  ```
-- on Windows
-  ```shell
-  .\gradlew.bat :composeApp:run
-  ```
+This app provides a clean, minimal, and visually appealing interface with real-time information like clock and weather.
 
 ---
 
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
+## 🚀 Features
+
+- ⏰ Live Digital Clock (real-time updates)
+- 🌤️ Weather Integration (API-based)
+- 📍 Location-based Weather (dynamic city detection)
+- 🧊 Glassmorphism UI (modern blurred card design)
+- 🌙 Dark Mode Dashboard
+- 📱 Android + 💻 Desktop support
+-  Music Widget 🎼
+
+---
+
+## 🛠️ Tech Stack
+
+- **Kotlin**
+- **Jetpack Compose**
+- **Compose Multiplatform**
+- **Android SDK**
+- **Weather API (Open-Meteo)**
+- **Location Services (GPS / Network)**
+
+---
+
+## 📸 Screenshots
+<img width="1121" height="1137" alt="Screenshot 2026-04-03 133215" src="https://github.com/user-attachments/assets/0a681835-b7fc-4fea-9951-5122af0db1d0" />
+<img width="1144" height="817" alt="Screenshot 2026-04-03 133049" src="https://github.com/user-attachments/assets/054ae406-ce3a-4ba2-ab7d-f67ee3f7fdb1" />
+
+> (Screenshots added here)
+
+---
+
+## ⚙️ How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
